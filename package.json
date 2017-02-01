@@ -1,14 +1,15 @@
 {
-  "name": "git-guppy",
+  "name": "git-guppy-safe",
+  "version": "0.0.0",
   "description": "Simple git-hook integration for your gulp workflows.",
-  "homepage": "https://github.com/therealklanni/git-guppy",
-  "author": "Kevin Lanni (https://github.com/therealklanni)",
+  "homepage": "https://github.com/ratson/git-guppy-safe",
+  "author": "Ratson (https://github.com/ratson)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/therealklanni/git-guppy.git"
+    "url": "https://github.com/ratson/git-guppy-safe.git"
   },
   "bugs": {
-    "url": "https://github.com/therealklanni/git-guppy/issues"
+    "url": "https://github.com/ratson/git-guppy-safe/issues"
   },
   "license": "MIT",
   "keywords": [
@@ -24,9 +25,7 @@
     "node": ">= 4"
   },
   "scripts": {
-    "test": "gulp test",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
-    "update": "updtr"
+    "test": "gulp test"
   },
   "devDependencies": {
     "chai": "^3.5.0",
@@ -43,8 +42,7 @@
     "proxyquire": "^1.7.4",
     "semantic-release": "^4.3.5",
     "sinon": "^1.12.1",
-    "sinon-chai": "^2.6.0",
-    "updtr": "^0.1.10"
+    "sinon-chai": "^2.6.0"
   },
   "dependencies": {
     "gulp-util": "^3.0.8",
