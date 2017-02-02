@@ -1,6 +1,6 @@
 {
   "name": "git-guppy-safe",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Simple git-hook integration for your gulp workflows.",
   "homepage": "https://github.com/ratson/git-guppy-safe",
   "author": "Ratson (https://github.com/ratson)",
